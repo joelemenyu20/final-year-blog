@@ -517,7 +517,8 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background-color: transparent;
+    /* background: var(--color-secondary); */
     top: 0;
     bottom: 0;
   }
@@ -526,6 +527,7 @@ section {
 .hero:before {
   position: absolute;
   content: "";
+  /* background-color: transparent; */
   background: rgba(27, 47, 69, 0.6);
   inset: 0;
 }
